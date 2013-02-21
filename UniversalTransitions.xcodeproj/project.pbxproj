@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9ADF57CF16D4AE1F006E3E11 /* REMNavDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADF57CC16D4AE1F006E3E11 /* REMNavDetailViewController.m */; };
+		9ADF57D016D4AE1F006E3E11 /* REMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADF57CE16D4AE1F006E3E11 /* REMNavViewController.m */; };
+		9ADF57D316D5FEC9006E3E11 /* REMNavViewControllerPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADF57D216D5FEC9006E3E11 /* REMNavViewControllerPhone.m */; };
 		9AE742A516D4A22D007C7DB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE742A416D4A22D007C7DB6 /* UIKit.framework */; };
 		9AE742A716D4A22D007C7DB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE742A616D4A22D007C7DB6 /* Foundation.framework */; };
 		9AE742A916D4A22D007C7DB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE742A816D4A22D007C7DB6 /* CoreGraphics.framework */; };
@@ -23,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9ADF57CB16D4AE1F006E3E11 /* REMNavDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REMNavDetailViewController.h; path = ../REMNavDetailViewController.h; sourceTree = "<group>"; };
+		9ADF57CC16D4AE1F006E3E11 /* REMNavDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REMNavDetailViewController.m; path = ../REMNavDetailViewController.m; sourceTree = "<group>"; };
+		9ADF57CD16D4AE1F006E3E11 /* REMNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REMNavViewController.h; path = ../REMNavViewController.h; sourceTree = "<group>"; };
+		9ADF57CE16D4AE1F006E3E11 /* REMNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REMNavViewController.m; path = ../REMNavViewController.m; sourceTree = "<group>"; };
+		9ADF57D116D5FEC9006E3E11 /* REMNavViewControllerPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMNavViewControllerPhone.h; sourceTree = "<group>"; };
+		9ADF57D216D5FEC9006E3E11 /* REMNavViewControllerPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMNavViewControllerPhone.m; sourceTree = "<group>"; };
 		9AE742A116D4A22D007C7DB6 /* UniversalTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE742A416D4A22D007C7DB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9AE742A616D4A22D007C7DB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,7 +105,13 @@
 				9AE742C316D4A22D007C7DB6 /* REMMasterViewController.m */,
 				9AE742C516D4A22D007C7DB6 /* REMDetailViewController.h */,
 				9AE742C616D4A22D007C7DB6 /* REMDetailViewController.m */,
+				9ADF57CB16D4AE1F006E3E11 /* REMNavDetailViewController.h */,
+				9ADF57CC16D4AE1F006E3E11 /* REMNavDetailViewController.m */,
+				9ADF57CD16D4AE1F006E3E11 /* REMNavViewController.h */,
+				9ADF57CE16D4AE1F006E3E11 /* REMNavViewController.m */,
 				9AE742AB16D4A22D007C7DB6 /* Supporting Files */,
+				9ADF57D116D5FEC9006E3E11 /* REMNavViewControllerPhone.h */,
+				9ADF57D216D5FEC9006E3E11 /* REMNavViewControllerPhone.m */,
 			);
 			path = UniversalTransitions;
 			sourceTree = "<group>";
@@ -187,6 +202,9 @@
 				9AE742B516D4A22D007C7DB6 /* REMAppDelegate.m in Sources */,
 				9AE742C416D4A22D007C7DB6 /* REMMasterViewController.m in Sources */,
 				9AE742C716D4A22D007C7DB6 /* REMDetailViewController.m in Sources */,
+				9ADF57CF16D4AE1F006E3E11 /* REMNavDetailViewController.m in Sources */,
+				9ADF57D016D4AE1F006E3E11 /* REMNavViewController.m in Sources */,
+				9ADF57D316D5FEC9006E3E11 /* REMNavViewControllerPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +337,7 @@
 				9AE742CC16D4A22D007C7DB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,7 +10,7 @@
 
 #import "REMDetailViewController.h"
 
-@interface REMMasterViewController () {
+@interface REMMasterViewController ()<UITableViewDelegate> {
     NSMutableArray *_objects;
 }
 @end
